@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
             newData[name][key] = [attrOfKey]
           end
         else
-          newData[:name] = name
+          newData[name] = name
         end
       end
     end
