@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
         else
           newData[name] = name
         end
+      end
     end
   end
 end
