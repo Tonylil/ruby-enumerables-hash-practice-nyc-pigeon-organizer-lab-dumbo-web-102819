@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       value.each do |attrOfKey, name|
         if newData[name]
           if newData[name][key]
-            newData[name][key].add(attrOfKey)
+            #newData[name][key].add(attrOfKey)
           else
             newData[name][key] = [attrOfKey]
           end
